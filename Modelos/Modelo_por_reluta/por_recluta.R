@@ -2,20 +2,20 @@ rm(list=ls()) # comando para limpiar
 
 
 # Parametros biologicos
-M=0.2
-Tmax=12
-A50=4 #5
-A95=6 #7
+M=0.85
+Tmax=7
+A50=2 #5
+A95=3 #6 #7
 R0=1
-dts=0.8 #dt desove
-Loo=150
-k=0.15
+dts=0.2 #dt desove
+Loo=130
+k=0.43
 t0=-0.5
 aw=0.001
-bw=3.0
-A50m=6
-A95m=7
-h=0.75
+bw=2.5
+A50m=3.5
+A95m=5
+h=0.73
 
 
 # vectores biologicos
